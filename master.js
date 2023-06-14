@@ -77,7 +77,7 @@ num0.onclick = function(){
     displayResult.innerHTML = total;
 };
 
-//******
+//*****
 
 butTotal.onclick = function(){
     total == "" ? displayResult.innerHTML = "0" : displayResult.innerHTML = eval(total);
