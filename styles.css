@@ -136,6 +136,12 @@ body{
   grid-area: divid;
 }
 
+.display{
+  font-size: 4em;
+}
+
+
+
 #total {
   grid-area: equal;
   height: 93%;
