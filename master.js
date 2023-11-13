@@ -24,7 +24,6 @@ const num0 = document.getElementById('num0');
 
 
 
-
 //NUMBER BUTTOM EVENTS
 
 num1.onclick = function(){
@@ -89,8 +88,8 @@ reset.onclick = function(){
 }
 
 //OPERATIONAL EVENTS 
-addition.onclick = function (){ 
-    total == "" ? displayResult.innerHTML = "0" : total += " + ";
+addition.onclick = function () {
+    total += total === "" ? "0" : " + ";
     displayResult.innerHTML = total;
 }
 
